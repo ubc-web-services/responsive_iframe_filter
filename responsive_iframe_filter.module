@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ */
+function responsive_iframe_filter_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'responsive_iframe_filter/responsive-iframe';
+}

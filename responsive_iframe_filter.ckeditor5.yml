@@ -1,0 +1,23 @@
+responsive_iframe_filter_iframe:
+  ckeditor5:
+    plugins: [htmlSupport.GeneralHtmlSupport]
+    config:
+      htmlSupport:
+        allow:
+          -
+            name:
+              regexp:
+                pattern: /.*/
+            attributes: true
+            classes: true
+            styles: true
+  drupal:
+    label: Arbitrary HTML support
+    elements:
+      - <figure>
+      - <figure class>
+      - <iframe>
+      - <iframe src title width height frameborder scrolling allow allowfullscreen loading name sandbox>
+    library: core/ckeditor5.htmlSupport
+    # @see \Drupal\ckeditor5\Plugin\CKEditor5PluginManagerInterface::getEnabledDefinitions()
+    conditions: []

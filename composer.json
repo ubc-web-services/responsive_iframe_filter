@@ -1,0 +1,10 @@
+{
+  "name": "ubc-web-services/responsive_iframe_filter",
+  "description": "A Drupal module to allow iframes to be added to CKEditor",
+  "type": "drupal-module",
+  "authors": [{
+    "name": "O'Toole, James",
+    "email": "james.otoole@ubc.ca"
+  }],
+  "require": {}
+}

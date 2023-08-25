@@ -1,0 +1,4 @@
+responsive-iframe:
+  css:
+    component:
+      css/responsive-iframe-filter.css: {}
